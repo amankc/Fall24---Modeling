@@ -8,7 +8,7 @@ In a warming climate, the heat stored in the ocean’s layers becomes increasing
 The cascading effects of changing ocean conditions are far-reaching, contributing to sea-level rise and affecting key systems such as the Atlantic Meridional Overturning Circulation (AMOC), which regulates the global climate. Furthermore, rising ocean temperatures have intensified the frequency and severity of tropical storms and hurricanes. Areas of warming, illustrated by red regions in Figure 1, highlight zones where ocean temperatures have risen significantly in recent decades. These regions often coincide with the paths of destructive hurricanes and cyclones, fueled by warm ocean waters (Bates et al., 2014; Dore et al., 2009; Feely et al., 2006).
 
 ![Ocean heat trend in the upper 200 meters](pictures/ocean-heat-trend.png)
-*Figure 1: Illustration of warming trends in the upper 200 meters of the ocean, highlighting areas with significant temperature increases.*
+**Fig 1: Illustration of warming trends in the upper 200 meters of the ocean, highlighting areas with significant temperature increases.**
 
 ## Model Description:
 
@@ -17,7 +17,7 @@ ECCO is a state-of-the-art global ocean data assimilation model designed to esti
 MITgcm is a numerical model designed for the study of the atmosphere, ocean, and climate with a flexible non-hydrostatic formulation that enables it to efficiently simulate fluid phenomena over a wide range of scales.
 
 ![Schematic illustration of a forward model and its adjoint](pictures/forward-adjoint-model.png)
-
+*Fig: 2 schematic illustration of a forward model and its adjoint. Note the input and output being opposite between the two model (Credit: ECCO v4)*
 The model uses the MITgcm (MIT General Circulation Model) as its core, which solves the primitive equations governing ocean and sea-ice dynamics. Key processes represented in ECCO include:
 
 - **Advection and diffusion of tracers** (e.g., temperature, salinity)
@@ -69,8 +69,10 @@ ECCO relies on a diverse set of observational datasets:
 | Mean dynamic topography     | DTU17MDT                                                                    |
 
 ![a) Scientist deploying an ARGO float b) Principle of ARGO float](pictures/argo-floats.png)
+*Fig3: (a) Scientist deploying an ARGO float (b) principle of ARGO float (Credit: Scripps Institution of Oceanography, UC San Diego)*
 
 ![Instrumented Seal(pictures/seal-instrumentation.png)
+Fig4: Instrumented Seal (Credit: NOAA)
 
 ## Calibration:
 
@@ -139,6 +141,7 @@ ECCO relies on a diverse set of observational datasets:
 - Interactions using bathymetry data (e.g., GEBCO or ETOPO1).
 
 ![ECCO Adjoint & State Estimation](pictures/overview-of-model.png)
+**Fig: ECCO Adjoint & State Estimation (Credit NASA ECCO)**
 
 ### Key Concepts:
 - **Forward Model:** Simulates changing conditions (e.g., ocean currents moving heat).
