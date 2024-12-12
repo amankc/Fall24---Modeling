@@ -15,7 +15,7 @@ ECCO is a state-of-the-art global ocean data assimilation model designed to esti
 
 MITgcm is a numerical model designed for the study of the atmosphere, ocean, and climate with a flexible non-hydrostatic formulation that enables it to efficiently simulate fluid phenomena over a wide range of scales.
 
-![Schematic illustration of a forward model and its adjoint](pictures/forward-adjoint-model)
+![Schematic illustration of a forward model and its adjoint](pictures/forward-adjoint-model.png)
 
 The model uses the MITgcm (MIT General Circulation Model) as its core, which solves the primitive equations governing ocean and sea-ice dynamics. Key processes represented in ECCO include:
 
@@ -69,7 +69,7 @@ ECCO relies on a diverse set of observational datasets:
 
 ![a) Scientist deploying an ARGO float b) Principle of ARGO float](pictures/argo-floats.png)
 
-![Instrumented Seal(pictures/seal-instrumentation.png))
+![Instrumented Seal(pictures/seal-instrumentation.png)
 
 ## Calibration:
 
