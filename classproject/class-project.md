@@ -8,7 +8,7 @@ In a warming climate, the heat stored in the ocean’s layers becomes increasing
 The cascading effects of changing ocean conditions are far-reaching, contributing to sea-level rise and affecting key systems such as the Atlantic Meridional Overturning Circulation (AMOC), which regulates the global climate. Furthermore, rising ocean temperatures have intensified the frequency and severity of tropical storms and hurricanes. Areas of warming, illustrated by red regions in Figure 1, highlight zones where ocean temperatures have risen significantly in recent decades. These regions often coincide with the paths of destructive hurricanes and cyclones, fueled by warm ocean waters (Bates et al., 2014; Dore et al., 2009; Feely et al., 2006).
 
 ![Ocean heat trend in the upper 200 meters](pictures/ocean-heat-trend.png)
-\n*Fig 1: Illustration of warming trends in the upper 200 meters of the ocean, highlighting areas with significant temperature increases.*
+"\n"*Fig 1: Illustration of warming trends in the upper 200 meters of the ocean, highlighting areas with significant temperature increases.*
 
 ## Model Description:
 
