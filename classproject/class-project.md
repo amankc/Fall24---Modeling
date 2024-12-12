@@ -1,6 +1,6 @@
 
 # ECCO (Estimating the Circulation and Climate of the Ocean) Model
-
+![ecco-logo]
 Understanding ocean circulation and its influence on climate systems is critical, particularly in the face of a changing climate. Temperature and salinity are the primary drivers of global ocean currents, regulating the distribution of heat and nutrients throughout the oceans. These processes are essential not only for sustaining marine ecosystems—from microscopic plankton to the largest marine mammals—but also for shaping global weather patterns.
 
 In a warming climate, the heat stored in the ocean’s layers becomes increasingly significant. This heat transport directly impacts polar regions, influencing the melting rates of marine-terminating glaciers and icebergs, the extent and longevity of sea ice, and the habitat suitability for polar species. These changes, in turn, have profound implications for indigenous communities, whose traditions and livelihoods are intricately tied to stable polar environments.
