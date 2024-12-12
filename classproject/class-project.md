@@ -7,19 +7,22 @@ In a warming climate, the heat stored in the ocean’s layers becomes increasing
 
 The cascading effects of changing ocean conditions are far-reaching, contributing to sea-level rise and affecting key systems such as the Atlantic Meridional Overturning Circulation (AMOC), which regulates the global climate. Furthermore, rising ocean temperatures have intensified the frequency and severity of tropical storms and hurricanes. Areas of warming, illustrated by red regions in Figure 1, highlight zones where ocean temperatures have risen significantly in recent decades. These regions often coincide with the paths of destructive hurricanes and cyclones, fueled by warm ocean waters (Bates et al., 2014; Dore et al., 2009; Feely et al., 2006).
 
-
 <figure>
   <img src="pictures/ocean-heat-trend.png" alt="Ocean heat trend in the upper 200 meters">
   <figcaption>Figure 1: Ocean heat trend in the upper 200 meters.</figcaption>
 </figure>
+
 ## Model Description:
 
 ECCO is a state-of-the-art global ocean data assimilation model designed to estimate the time-evolving state of the ocean. It combines a numerical ocean circulation model (MIT-gcm) with observational data through adjoint-based optimization (refer to Fig. 2). This approach minimizes the mismatch between the model output and observations while ensuring that physical laws like conservation of mass and momentum are respected.
 
 MITgcm is a numerical model designed for the study of the atmosphere, ocean, and climate with a flexible non-hydrostatic formulation that enables it to efficiently simulate fluid phenomena over a wide range of scales.
 
-![Schematic illustration of a forward model and its adjoint](pictures/forward-adjoint-model.png)
-*Fig: 2 schematic illustration of a forward model and its adjoint. Note the input and output being opposite between the two model (Credit: ECCO v4)*
+<figure>
+  <img src="pictures/forward-adjoint-model.png" alt="Schematic illustration of a forward model and its adjoint">
+  <figcaption>Fig2: schematic illustration of a forward model and its adjoint. Note the input and output being opposite between the two model (Credit: ECCO v4).</figcaption>
+</figure>
+
 The model uses the MITgcm (MIT General Circulation Model) as its core, which solves the primitive equations governing ocean and sea-ice dynamics. Key processes represented in ECCO include:
 
 - **Advection and diffusion of tracers** (e.g., temperature, salinity)
@@ -70,11 +73,15 @@ ECCO relies on a diverse set of observational datasets:
 | T and S climatology         | World Ocean Atlas 2009                                                      |
 | Mean dynamic topography     | DTU17MDT                                                                    |
 
-![a) Scientist deploying an ARGO float b) Principle of ARGO float](pictures/argo-floats.png)
-*Fig3: (a) Scientist deploying an ARGO float (b) principle of ARGO float (Credit: Scripps Institution of Oceanography, UC San Diego)*
+<figure>
+  <img src="pictures/argo-floats.png" alt="(a) Scientist deploying an ARGO float (b) principle of ARGO float">
+  <figcaption>Fig3: (a) Scientist deploying an ARGO float (b) principle of ARGO float (Credit: Scripps Institution of Oceanography, UC San Diego).</figcaption>
+</figure>
 
-![Instrumented Seal(pictures/seal-instrumentation.png)
-Fig4: Instrumented Seal (Credit: NOAA)
+<figure>
+  <img src="pictures/seal-instrumentation.png" alt="Instrumented Seal">
+  <figcaption>Fig4: Instrumented Seal (NOAA).</figcaption>
+</figure>
 
 ## Calibration:
 
@@ -142,8 +149,11 @@ Fig4: Instrumented Seal (Credit: NOAA)
 #### Bottom:
 - Interactions using bathymetry data (e.g., GEBCO or ETOPO1).
 
-![ECCO Adjoint & State Estimation](pictures/overview-of-model.png)
-**Fig: ECCO Adjoint & State Estimation (Credit NASA ECCO)**
+<figure>
+  <img src="pictures/overview-of-model.png" alt="ECCO Adjoint & State Estimation">
+  <figcaption>Fig5: ECCO Adjoint & State Estimation (Credit NASA ECCO).</figcaption>
+</figure>
+
 
 ### Key Concepts:
 - **Forward Model:** Simulates changing conditions (e.g., ocean currents moving heat).
